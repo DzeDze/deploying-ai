@@ -21,7 +21,7 @@ from llm_factory import create_embedding_function
 # --- Configuration (must match tools_papers.py) ---
 BASE_DIR = Path(__file__).resolve().parent
 CSV_PATH = BASE_DIR / "data" / "papers_agents_llm_subset.csv"
-CHROMA_DB_PATH  = "data/chroma_db"
+CHROMA_DB_PATH  = BASE_DIR / "data" / "chroma_db"
 COLLECTION_NAME = "arxiv_papers"
 BATCH_SIZE = 100
 
