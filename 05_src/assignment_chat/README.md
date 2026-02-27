@@ -1,7 +1,7 @@
 ## Assigment 2: AIRADA - An Autonomous Research & Intelligence Assistant
 
 In today’s AI landscape, new frameworks, services, breakthroughs, and research are emerging at an overwhelming pace. Keeping up with these rapid developments is essential for anyone working in this field.
-AIRADA is a Proof of Concept (POC) AI system designed to bridge the gap by quickly capturing and summarizing the latest AI-related information available on the market.
+AIRADA is a Proof of Concept (POC) AI system designed to bridge the gap by quickly capturing and summarizing the latest AI-related information available on the market. It also provides precise **source links** to the content used to generate its summaries.
 
 ## Services
 
@@ -134,6 +134,8 @@ The agent will politely refuse to:
 - Although the semantic query dataset contains a substantial number of research papers, the data is from 2023. In the AI field, two years can feel like two centuries due to the rapid pace of innovation. More up-to-date datasets should be incorporated in future iterations.
 
 - The RSS feeds occasionally fail to respond. More reliable or additional news sources should be integrated.
+
+- Tests are not required for this assignment. In future updates, comprehensive unit tests should be provided to cover at least all tools.
 
 - Guardrails are currently implemented using system prompts only. More advanced safety mechanisms should be considered in future development, such as:
 
